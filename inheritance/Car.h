@@ -7,10 +7,10 @@
 #ifndef CAR_H
 #define CAR_H
 
-#include "Vehicle.h"
+#include "Vehicle.h" //child of Vehicle class
 using namespace std;
 
-class Car : public Vehicle {
+class Car : public Vehicle { //child of Vehicle class
     private:
         int doors;
 

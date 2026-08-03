@@ -7,10 +7,10 @@
 #ifndef TRUCK_H
 #define TRUCK_H
 
-#include "Vehicle.h"
+#include "Vehicle.h" //child of Vehicle class
 using namespace std;
 
-class Truck : public Vehicle{
+class Truck : public Vehicle{ //child of Vehicle class
     private:
         int towingCapacity;
     public:
