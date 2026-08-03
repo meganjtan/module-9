@@ -17,7 +17,7 @@ int Vehicle::getYear(){
 }
 
 void Vehicle::setManufacturer(string manufacturer){
-    this->manufacturer = manufacturer;
+    this->manufacturer = manufacturer; //used this pointer to access class variable of same name
 }
 
 void Vehicle::setYear(int year){
