@@ -2,7 +2,7 @@
 // CIS 1202 801
 // Aug 3, 2026
 // Module 9 - Inheritance
-// Class Implementation File
+// Class Implementation File - Vehicle
 
 #include "Vehicle.h"
 #include <iostream>

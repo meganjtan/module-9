@@ -2,7 +2,7 @@
 // CIS 1202 801
 // Aug 3, 2026
 // Module 9 - Inheritance
-// Class Specification File
+// Class Specification File - Vehicle
 
 #ifndef VEHICLE_H
 #define VEHICLE_H
