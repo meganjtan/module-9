@@ -22,6 +22,7 @@ int main(){
     cout << "Vehicle Program" << endl;
     cout << endl;
 
+    //testing Vehicle class
     Vehicle vehicle;
     cout <<"Vehicle: " << endl;
     cout << "Enter the manufacturer: ";
@@ -33,6 +34,7 @@ int main(){
     vehicle.displayInfo();
     cout << endl;
 
+    //testing Car class
     Car car;
     cout <<"Car: " << endl;
     cout << "Enter the manufacturer: ";
@@ -47,6 +49,7 @@ int main(){
     car.displayInfo();
     cout << endl;
 
+    //testing Truck class
     Truck truck;
     cout <<"Truck: " << endl;
     cout << "Enter the manufacturer: ";
