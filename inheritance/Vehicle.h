@@ -20,7 +20,7 @@ class Vehicle{
         int getYear();
         void setYear(int year);
         void setManufacturer(string manufacturer);
-        void displayInfo();
+        virtual void displayInfo();
 };
 
 #endif
