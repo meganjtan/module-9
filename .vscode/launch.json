@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/megantan/Desktop/module-9/inheritance",
-      "program": "/Users/megantan/Desktop/module-9/inheritance/build/Debug/outDebug"
+      "cwd": "/Users/megantan/Desktop/module-9/exceptions-and-templates/Exceptions",
+      "program": "/Users/megantan/Desktop/module-9/exceptions-and-templates/Exceptions/build/Debug/outDebug"
     }
   ]
 }
