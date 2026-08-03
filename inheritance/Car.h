@@ -17,7 +17,7 @@ class Car : public Vehicle { //child of Vehicle class
     public: 
         int getDoors();
         void setDoors(int doors);
-        void displayInfo() override;
+        void displayInfo() override; //override vehicle displayInfo()
 };
 
 #endif

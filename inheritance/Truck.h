@@ -16,7 +16,7 @@ class Truck : public Vehicle{ //child of Vehicle class
     public:
         int getTowingCapacity();
         void setTowingCapacity(int towingCapcity);
-        void displayInfo() override;
+        void displayInfo() override; //override vehicle displayInfo()
 };
 
 #endif

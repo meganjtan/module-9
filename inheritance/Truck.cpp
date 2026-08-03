@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-void Truck::displayInfo(){
+void Truck::displayInfo(){ //overriding vehicle displayInfo()
     Vehicle::displayInfo();
     cout << "Towing Capacity: " << towingCapacity << endl;
 }

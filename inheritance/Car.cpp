@@ -16,7 +16,7 @@ void Car::setDoors(int doors){
     this->doors = doors;
 }
 
-void Car::displayInfo(){
+void Car::displayInfo(){ //overriding vehicle displayInfo()
     Vehicle::displayInfo();
     cout << "Doors: " << doors << endl;
 }
