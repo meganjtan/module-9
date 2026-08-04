@@ -20,7 +20,7 @@ int main(){
     tryCatch('A', 32); //A, 32 = invalidRangeException
 }
 
-class invalidCharacterException : public exception { //did some research, and learned about exception class()
+class invalidCharacterException : public exception { //did some research, and learned about exception class() and what()
     public: 
         const char* what() const noexcept override{ //overriding what() from exception class for error description
             return "Invalid. Not a character.";
