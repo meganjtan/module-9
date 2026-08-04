@@ -11,6 +11,10 @@ T half(T number){
     return number / 2;
 }
 
+int half(int number){
+    return static_cast<int>(round(static_cast<double>(number / 2.0)));
+}
+
 int main(){
     double d = 7.0;
     float f = 5.0f;
