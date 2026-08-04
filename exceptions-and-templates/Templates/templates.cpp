@@ -12,11 +12,11 @@ T half(T number){
 }
 
 int main(){
-    double a = 7.0;
-    float b = 5.0f;
-    int c = 3;
+    double d = 7.0;
+    float f = 5.0f;
+    int i = 3;
 
-    cout << half(a) << endl;
-    cout << half(b) << endl;
-    cout << half(c) << endl;
+    cout << half(d) << endl;
+    cout << half(f) << endl;
+    cout << half(i) << endl;
 }
